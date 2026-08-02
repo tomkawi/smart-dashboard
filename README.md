@@ -1,6 +1,6 @@
 # Smart Dashboard
 
-Ein persönliches Dashboard für mit verschiedenen Widgets zum anzeigen auuf dem Raspberry Pi und Windows.
+Ein persönliches Dashboard für mit verschiedenen Widgets zum anzeigen auf dem Raspberry Pi und Windows.
 
 ## Geplante Features
 
