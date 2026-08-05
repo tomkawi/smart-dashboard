@@ -40,9 +40,12 @@ h2{
    margin: 0;
 }
 
+h3{
+   margin: 0;
+}
+
 p{
    margin: 0;
-    color: black;
 }
 
 /* ===================================
@@ -52,7 +55,9 @@ body{
    height: 100vh;
    display: grid;
    grid-template-rows: auto 1fr auto;
+   
    gap: 10px;
+   padding:10px;
 }
 
 header {
@@ -78,6 +83,11 @@ footer {
 
     border-radius: var(--border-radius);
 
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+
     margin: 0px;
     padding: 20px;
     
@@ -89,7 +99,7 @@ footer {
    Clock Widget
 =================================== */
 .clock-widget{
-    
+   
 }
 
 /* ===================================
@@ -110,6 +120,18 @@ footer {
    Spotify Widget
 =================================== */
 .spotify-widget{
+   
+}
+
+#cover{
+   color: black;
+   background-color: white;
+
+    width: 200px;
+    height: 200px;
+    
+    border: 5px solid;
+    font-size: 2em;
 
 }
 

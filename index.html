@@ -14,7 +14,9 @@
     <header>
         <section id="clock" class="widget clock-widget">
             <h2>Clock</h2>
-            <p>this is the clock widget<br>it displays the time, date and weekday</p>
+            <p class="time">12:00</p>
+            <p class="weekday">Dienstag</p>   
+            <p class="date">12.09.2026 </p>
         </section>
 
     </header>
@@ -23,17 +25,99 @@
 
         <section  id="weather" class="widget weather-widget">
             <h2>Weather</h2>
-            <p>this is the weather widget<br>it displays today weather and the next 3 days</p>
+
+            <div class="weather-current">
+
+                <div class="weather-icon">
+                    ☀️
+                </div>
+
+                <div>
+                    <h1>24°C</h1>
+                    <p>
+                        Sonnig
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="weather-details">
+                <p>
+                    Wind: 14 km/h<br>
+                    Luftfeuchtigkeit: 62%
+                </p>
+            </div>
+
+            <div class="forecast">
+                <p>
+                    Wed<br>
+                    26°C ☀️
+                </p>
+                <br>
+                <p>
+                    Thu<br>
+                    21°C 🌧
+                </p>
+                <br>
+                <p>
+                    Fri<br>
+                    23°C ⛅
+                </p>
         </section>
 
         <section id="calendar" class="widget calendar-widget">
             <h2>Calendar</h2>
-            <p>this is the calender widget<br>it displays todays appointments</p>
+            
+            <h3>Heute</h3>
+            
+            <div class="event">
+                <span>09:00</span>
+                <p>Vorlesung</p>
+            </div>
+
+            <div class="event">
+                <span>13:30</span>
+                <p>Kino</p>
+            </div>
+
+            <div class="event">
+                <span>18:00</span>
+                <p>Fitness</p>
+            </div>
+
+            <h3>Tomorrow</h3>
+
+            <div class="event">
+                <span>10:00</span>
+                <p>Meeting</p>
+            </div>
+
+
         </section>
 
         <section id="spotify" class="widget spotify-widget">
-            <h2>Spotify</h2>            
-            <p>this is the spotify widget<br>it displays the currently played song</p>
+            <h2>Spotify</h2>
+            
+            <div class="spotify-content">
+                <div id="cover">
+                    Album <br>
+                    Cover
+                </div>
+
+                <div id="song-info">
+                    <p>Song Name</p>
+                    <p>Artist</p>
+                </div>
+            </div>
+
+            <div class="controls">
+                <button>⏮</button>
+                <button>⏯</button>
+                <button>⏭</button>
+                <p><--------°-------></p>
+            </div>
+            
         </section>
 
     </main>
@@ -42,7 +126,14 @@
 
         <section id="system" class="widget system-widget">
             <h2>System</h2>
-            <p>this is a system widget <br>it displays system stats</p>         
+            
+            <p>
+                Raspberry Pi 4 |
+                CPU: 35% |
+                RAM: 42% |
+                Storage: 61% |
+                Temp: 48°C
+            </p>         
         </section>
 
     </footer>
