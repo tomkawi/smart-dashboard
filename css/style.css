@@ -32,26 +32,37 @@ body {
 }
 
 h1{
+    margin: 0;
     text-align:center;
 }
 
 h2{
-   
+   margin: 0;
 }
 
 p{
+   margin: 0;
     color: black;
 }
 
 /* ===================================
    Layout
 =================================== */
+body{
+   height: 100vh;
+   display: grid;
+   grid-template-rows: auto 1fr auto;
+   gap: 10px;
+}
+
 header {
 
 }
 
 main {
-
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   gap: 10px;
 }
 
 footer {
@@ -67,8 +78,8 @@ footer {
 
     border-radius: var(--border-radius);
 
-    margin: 25px;
-    padding: 25px;
+    margin: 0px;
+    padding: 20px;
     
     text-align: center;
 
