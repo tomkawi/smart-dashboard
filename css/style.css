@@ -31,11 +31,6 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-h1{
-    margin: 0;
-    text-align:center;
-}
-
 h2{
    margin: 0;
 }
@@ -61,7 +56,7 @@ body{
 }
 
 header {
-
+      
 }
 
 main {
@@ -84,7 +79,7 @@ footer {
     border-radius: var(--border-radius);
 
     margin: 0px;
-    padding: 20px;
+    padding: 1vw;
     
     text-align: center;
 
@@ -94,7 +89,13 @@ footer {
    Clock Widget
 =================================== */
 .clock-widget{
+   
+}
+
+.clock-info{
    display: flex;
+   flex-direction: row;
+   gap: 10px;
    justify-content:center;
 }
 
@@ -102,7 +103,59 @@ footer {
    Weather Widget
 =================================== */
 .weather-widget{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 20px;
+}
 
+.weather-location{
+
+}
+
+.weather-current{
+   display: flex;
+   justify-content:center;
+   gap: 20px
+}
+
+.weather-details{
+   display: flex;
+   justify-content: space-evenly;
+   width:100%;
+}
+
+.weather-description{
+   font-size: 30px;
+}
+
+.weather-forecast{
+   display: flex;
+   justify-content: space-evenly;
+   width:100%;
+}
+
+.weather-forecast-day{
+   justify-content: center;
+   text-align: center;
+}
+
+.weather-forecast-icon{
+   font-size: 50px;
+}
+
+.weather-forecast-temperature{
+   font-weight: bold;
+   font-size: 2em;
+}
+
+.weather-temperature{
+   font-weight: bold;
+   font-size: 5em;
+}
+
+.weather-icon{
+   font-size: 60px;
 }
 
 /* ===================================
@@ -138,8 +191,9 @@ footer {
    color: black;
    background-color: white;
 
-    width: 300px;
-    height: 300px;
+    width: 20vw;
+    aspect-ratio:1;
+
     
     border: 5px solid;
     font-size: 2em;
